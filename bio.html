@@ -1,55 +1,59 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<head runat="server">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-    <title>Mark Amann - Biography</title>
-    <link rel="stylesheet" type="text/css" href="CSS/styles.css" media="screen" />
-
-</head>
-<body>
+  <head runat="server">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+      <title>Mark Amann - Biography</title>
+      <link rel="stylesheet" type="text/css" href="CSS/styles.css" media="screen" />
+  </head>
+  <body>
     <form runat="server">
-      <header>
-        <div style="float: left; width: 40%;">
-          <span class="Mark">Mark</span>&nbsp;<span class="Amann">Amann</span>
+      <div id="divMainContainer" class="MainContainer">
+        <div id="divHeader" class="Banner">
+          <div id="divNameBlock" class="NameBlock">
+            <span class="Mark">Mark</span>&nbsp;<span class="Amann">Amann</span>
+            <br />
+            <span class="Tagline">Software Developer</span>
+          </div>
+          <div id="divLinkBlock" class="LinkBlock">
+            <div id="divHomeLink" class="NavLinkDiv">
+              <a href="index.html" style="outline: none !important; text-decoration:none !important;"><span class="LinkSpan">Home</span></a>
+            </div>
+            <div id="divBioLink" class="NavLinkDiv">
+              <a href="bio.html" style="outline: none !important; text-decoration:none !important;"><span class="LinkSpan">Biography</span></a>
+            </div>
+            <div id="divResumeLink" class="NavLinkDiv">
+              <a href="resume.html" style="outline: none !important; text-decoration:none !important;"><span class="LinkSpan">Resume</span></a>
+            </div>
+            <div id="divGoalsLink" class="NavLinkDiv">
+              <a href="goals.html" style="outline: none !important; text-decoration:none !important;"><span class="LinkSpan">Goals</span></a>
+            </div>
+            <div id="divContactLink" class="NavLinkDiv">
+              <a href="contact.html" style="outline: none !important; text-decoration:none !important;"><span class="LinkSpan">Contact</span></a>
+            </div>
+            <div id="divLinkedInLink" class="NavLinkDiv">
+              <a href="https://www.linkedin.com/in/markjamann/" target="_blank"><img src="Images/LinkedIn.png" height="30" alt="Mark Amann - View my LinkedIn page" /></a>
+            </div>
+          </div>
+        </div>
+
+        <div id="divContent" class="Content">
+          <h2>Biography</h2>
           <br />
-          <span class="Tagline">Software Developer</span>
-        </div>
-
-        <div style="float: left; width: 60%;">
+          I began programming computers in the 6th grade.  This was the start of a lifelong love of computers and technology.
           <br /><br />
-          <a href="index.html" style="outline: none !important; text-decoration:none !important;"><span class="LinkSpan">Home</span></a>
-          &tab;
-          <a href="bio.html" style="outline: none !important; text-decoration:none !important;"><span class="LinkSpan">Biography</span></a>
-          &tab;
-          <a href="resume.html" style="outline: none !important; text-decoration:none !important;"><span class="LinkSpan">Resume</span></a>
-          &tab;
-          <a href="blog.html" style="outline: none !important; text-decoration:none !important;"><span class="LinkSpan">Blog</span></a>
-          &tab;
-          <a href="contact.html" style="outline: none !important; text-decoration:none !important;"><span class="LinkSpan">Contact</span></a>
-          &tab;
-          <a href="https://www.linkedin.com/in/markjamann/" target="_blank"><img src="Images/LinkedIn.png" height="30" alt="Mark Amann - View my LinkedIn page" /></a>
+          I have approximately 7 years of software development experience that includes web development, Microsoft Windows forms applications and console applications.  I have worked in several languages including C# and Visual basic.  I also have a strong background in SQL and relational database design and implementation.  I have experience in various web technologies such as HTML, CSS, and JavaScript.
+          <br /><br />
+          In addition to my software development skills, I have a degree in Public Relations.  This unique combination of skills has made me a valuable asset to organizations as a liaison between technical and communications teams.  At Bozell Public Relations, I had the opportunity to write a presentation for Microsoft Founder and former CEO Bill Gates which was used at a healthcare conference at which Mr. Gates spoke about our client for 8 minutes.
+          <br /><br />
+          On a personal level, my hobbies include movies, music and computer gaming.  I enjoy traveling, particularly cruises, and have traveled extensively throughout the Caribbean.
         </div>
-      </header>
 
-      <div style="padding: 30px;">
-        <h2>Biography</h2>
-        <br />
-        I began programming computers in the 6th grade.  This was the start of a lifelong love of computers and technology.
-        <br /><br />
-        I have approximately 7 years of software development experience that includes web development, Microsoft Windows forms applications and console applications.  I have worked in several languages including C# and Visual basic.  I also have a strong background in SQL and relational database design and implementation.  I have experience in various web technologies such as HTML, CSS, and JavaScript.
-        <br /><br />
-        In addition to my software development skills, I have a degree in Public Relations.  This unique combination of skills has made me a valuable asset to organizations as a liaison between technical and communications teams.  At Bozell Public Relations, I had the opportunity to write a presentation for Microsoft Founder and former CEO Bill Gates which was used at a healthcare conference at which Mr. Gates spoke about our client for 8 minutes.
-        <br /><br />
-        On a personal level, my hobbies include movies, music and computer gaming.  I enjoy traveling, particularly cruises, and have traveled extensively throughout the Caribbean.
+        <br /><br /><br /><br />
+
+        <footer>
+          <p style="color: #FFFFFF;">Copyright&nbsp;&copy;&nbsp;2019, Mark J. Amann. All rights reserved.</p>
+        </footer>
       </div>
-
-      <br /><br /><br /><br />
-
-      <footer>
-        <p style="color: #FFFFFF;">Copyright&nbsp;&copy;&nbsp;2019, Mark J. Amann. All rights reserved.</p>
-      </footer>
-
     </form>
-</body>
+  </body>
 </html>

@@ -1,219 +1,225 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<head runat="server">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-    <title>Mark Amann< - Resume</title>
-    <link rel="stylesheet" type="text/css" href="CSS/styles.css" media="screen" />
-
-</head>
-<body>
+  <head runat="server">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+      <title>Mark Amann - Resume</title>
+      <link rel="stylesheet" type="text/css" href="CSS/styles.css" media="screen" />
+  </head>
+  <body>
     <form runat="server">
-      <header>
-        <div style="float: left; width: 40%;">
-          <span class="Mark">Mark</span>&nbsp;<span class="Amann">Amann</span>
-          <br />
-          <span class="Tagline">Software Developer</span>
+      <div id="divMainContainer" class="MainContainer">
+        <div id="divHeader" class="Banner">
+          <div id="divNameBlock" class="NameBlock">
+            <span class="Mark">Mark</span>&nbsp;<span class="Amann">Amann</span>
+            <br />
+            <span class="Tagline">Software Developer</span>
+          </div>
+          <div id="divLinkBlock" class="LinkBlock">
+            <div id="divHomeLink" class="NavLinkDiv">
+              <a href="index.html" style="outline: none !important; text-decoration:none !important;"><span class="LinkSpan">Home</span></a>
+            </div>
+            <div id="divBioLink" class="NavLinkDiv">
+              <a href="bio.html" style="outline: none !important; text-decoration:none !important;"><span class="LinkSpan">Biography</span></a>
+            </div>
+            <div id="divResumeLink" class="NavLinkDiv">
+              <a href="resume.html" style="outline: none !important; text-decoration:none !important;"><span class="LinkSpan">Resume</span></a>
+            </div>
+            <div id="divGoalsLink" class="NavLinkDiv">
+              <a href="goals.html" style="outline: none !important; text-decoration:none !important;"><span class="LinkSpan">Goals</span></a>
+            </div>
+            <div id="divContactLink" class="NavLinkDiv">
+              <a href="contact.html" style="outline: none !important; text-decoration:none !important;"><span class="LinkSpan">Contact</span></a>
+            </div>
+            <div id="divLinkedInLink" class="NavLinkDiv">
+              <a href="https://www.linkedin.com/in/markjamann/" target="_blank"><img src="Images/LinkedIn.png" height="30" alt="Mark Amann - View my LinkedIn page" /></a>
+            </div>
+          </div>
         </div>
 
-        <div style="float: left; width: 60%;">
-          <br /><br />
-          <a href="index.html" style="outline: none !important; text-decoration:none !important;"><span class="LinkSpan">Home</span></a>
-          &tab;
-          <a href="bio.html" style="outline: none !important; text-decoration:none !important;"><span class="LinkSpan">Biography</span></a>
-          &tab;
-          <a href="resume.html" style="outline: none !important; text-decoration:none !important;"><span class="LinkSpan">Resume</span></a>
-          &tab;
-          <a href="blog.html" style="outline: none !important; text-decoration:none !important;"><span class="LinkSpan">Blog</span></a>
-          &tab;
-          <a href="contact.html" style="outline: none !important; text-decoration:none !important;"><span class="LinkSpan">Contact</span></a>
-          &tab;
-          <a href="https://www.linkedin.com/in/markjamann/" target="_blank"><img src="Images/LinkedIn.png" height="30" alt="Mark Amann - View my LinkedIn page" /></a>
+        <div id="divContent" class="Content">
+          <div id="divResumeRight" class="Resume-right">
+              <span style="ForeColor: 000000; font-size: 20pt; font-weight: bold;">Competencies</span>
+              <br /><br />
+              <span style="ForeColor: 000000; font-size: 18pt; font-weight: bold;">Software Development</span>
+              <br />
+              C#, Visual Basic, SQL, ASP.NET, HTML, CSS, JavaScript, Microsoft SQL Server, MySQL, SSIS
+              <br /><br />
+              <span style="ForeColor: 000000; font-size: 18pt; font-weight: bold;">Public Relations</span>
+              <br />
+              Online marketing. Search engine
+              <br />
+              optimization, Strategic
+              <br />
+              communications, Press releases,
+              <br />
+              Marketing materials, Trade
+              <br />
+              shows, Newsletters, Strategic
+              <br />
+              consulting, Business and
+              <br />
+              technical writing
+              <br /><br />
+          </div>
+
+          <div id="divResumeLeft" class="Resume-left">
+              <h2>Resume</h2>
+              <br />
+              <b><u>Professional Summary</u></b>
+              <br />
+              Passionate, team-oriented software developer with 7+ years of experience developing both small and large scale applications.  My focus is always on results that not only meet user needs, but exceed them.  I also have a strong communications background with a degree in Public Relations and 3 years of experience in that field.
+              <br /><br />
+
+              <b><u>Employmnet History</u></b>
+              <br /><br />
+              <b>Software Development</b>
+              <br /><br />
+              <b>Bravo Wellness, Cleveland, Ohio</b>
+              <br />
+              2017 - 2019
+              <br />
+              IT Applications Developer II - Back End Development
+              <br />
+              Worked on a multi-developer team in an agile development environment.  Developed, enhanced and maintained over 200 Windows Forms and console applications and libraries using the .NET framework in support of back end functionality and internal tools for a technology-driven company.  Constantly worked to improve efficiency and utility of data loading, internal use and reporting systems.  Developed a tool for internal staff to see real-time data using API interfaces to vendor systems.  Pioneered a solution to increase data load efficiency exponentially using SSIS packages.  This position included partial remote work.
+              <br />
+              Technologies used: C#, Visual Basic, SQL, Microsoft SQL Server, SQL Server Integration Services (SSIS)
+
+              <br /><br />
+
+              <b>KEPRO, Cleveland, Ohio</b>
+              <br />
+              2014 - 2017
+              <br />
+              Web Developer
+              <br />
+              Full stack design and development of internal web applications using ASP.NET Web Forms, Visual Basic, C#, HTML, CSS and JavaScript.  Developed an internal web application to track the company's healthcare peer reviewer network.  Integrated the peer review application with third party services through an API.  Developed and maintained public facing web sites.  Designed relational databases for the back end of web applications using Microsoft SQL Server. Successfully worked 100% remote for the last year and a half of this position.
+              <br />
+              Technologies used: ASP.NET Web Forms, Visual Basic, C#, HTML, CSS, JavaScript, SQL, Microsoft SQL Server
+
+              <br /><br />
+
+              <b>KEPRO, Cleveland, Ohio</b>
+              <br />
+              2013 - 2014
+              <br />
+              Webmaster (Contract)
+              <br />
+              Maintained a public facing ASP.NET Visual Basic web site with Microsoft SQL Server as the database back end.  Planned and developed a full stack internal web application designed to track and schedule the company's healthcare peer reviewer network.
+              <br />
+              Technologies used: ASP.NET Web Forms, Visual Basic, C#, HTML, CSS, JavaScript, SQL, Microsoft SQL Server
+
+              <br /><br />
+
+              <b>The Cleveland Clinic Foundation, Cleveland, Ohio</b>
+              <br />
+              2013
+              <br />
+              Applications Developer (Contract)
+              <br />
+              Developed custom reports using SQL, Crystal Reports and Microsoft Excel to support healthcare provider credential management.  Extensive use of SQL for data reporting and maintenance. Developed and enhanced custom software used by credentialing staff to track healthcare provider credentials and education.
+              <br />
+              Technologies used: .NET Windows Forms, Visual Basic, SQL, Microsoft SQL Server, Crystal Reports
+
+              <br /><br />
+
+              <b>Amtrust Financial Group, Cleveland, Ohio</b>
+              <br />
+              2013
+              <br />
+              Software Developer (Contract)
+              <br />
+              Planned, developed, implemented, and tested custom code using Visual Basic for the import of insurance client data into SQL Server databases.  Responsible for maintaining accuracy of client sales, claims and financial data.  Extensive use of SQL for data verification, maintenance and reporting.
+              <br />
+              Technologies used: .NET Console Applications, Visual Basic, SQL, Microsoft SQL Server
+
+              <br /><br />
+
+              <b>Main Sequence Technologies, Inc., Willoughby, Ohio</b>
+              <br />
+              2008 - 2009
+              <br />
+              Software Developer
+              <br />
+              Planned, developed, implemented, and tested software solutions for a web based applicant tracking product using Visual Basic 6.0.  Assisted with database maintenance and conversions.  Wrote special use software to fix client database problems.
+              <br />
+              Technologies used: Visual Basic 6.0, HTML, CSS, SQL, Microsoft SQL Server
+
+              <br /><br />
+
+              <b>Public Relations</b>
+              <br /><br />
+
+              <b>Bozell Public Relations, Cleveland, Ohio</b>
+              <br />
+              1996 - 1998
+              <br />
+              Assistant Account Executive/CyberPR Specialist
+              <br />
+              Wrote press releases, newsletter articles and marketing materials.  Wrote a presentation for Microsoft Founder and CEO Bill Gates that was used for his presentation during a healthcare conference in which he spoke about our client for 8 minutes.  Counseled clients on using Internet technologies in their overall marketing strategies.  Monitored online presence and conducted competitive analysis.  Served as liaison between technical clients and staff.
+
+              <br /><br />
+
+              <b>PolySort, Inc., Akron, Ohio</b>
+              <br />
+              1998 - 1999
+              <br />
+              Marketing Manager
+              <br />
+              Supervised marketing efforts.  Developed marketing materials and procedures that greatly enhanced efficiency.  Assisted in web site development.  Maximized search engine results for the company and for clients.  Designed and published newsletters.  Wrote press releases and newsletter articles.  Wrote a new business proposal that resulted in the largest account in company history.  This proposal then became the template for future proposals.
+
+              <br /><br />
+
+              <b>Other Work</b>
+              <br /><br />
+
+              <b>Wal-mart, Parma, Ohio</b>
+              <br />
+              2010 - 2013
+              <br />
+              Photo Center Technician
+              <br />
+              Assist customers with the processing and printing of digital photographs.  Assist with camera and accessories sales.  Assist with customer service in the electronics department.  Maintain photo processing and printing equipment.  Maintain merchandise presentation, organization and inventory.  Troubleshoot technical issues to determine the best products and solutions for customer needs.
+
+              <br /><br />
+              <b>Samples of My Work</b>
+              <br /><br />
+              While most of my professional work has been proprietary and confidential, at KEPRO, I developed and maintained a public facing web site:
+              <br /><br />
+              <a href="http://www.keproqio.com" target="_blank">http://www.keproqio.com</a>
+              <br />
+               I worked with the marketing department, including a graphic designer, to design the site and I performed all development and implementation.  The site was developed as an ASP.NET web site with Visual Basic as the code-behind language and Microsoft SQL Server as the backend database.  This site was developed some time ago.  However, most of my original programming remains intact.
+
+              <br /><br />
+
+              <b><u>Education</u></b>
+              <br /><br />
+              Bachelor of Science in Computer Science
+              <br />
+              Kent State University, Kent, Ohio
+              <br />
+              December, 2007
+              <br /><br />
+              Bachelor of Science in Public Relations
+              <br />
+              Kent State University, Kent, Ohio
+              <br />
+              December, 1996
+              <br /><br />
+          </div>
+
         </div>
-      </header>
 
-      <div style="padding: 30px; width: 100%;">
-        <div style="float: left; width: 65%; padding-left: 10px; padding-right: 10px; padding-bottom: 5px;">
-            <h2>Resume</h2>
-            <br />
-            <b><u>Professional Summary</u></b>
-            <br />
-            Passionate, team-oriented software developer with 7+ years of experience developing both small and large scale applications.  My focus is always on results that not only meet user needs, but exceed them.  I also have a strong communications background with a degree in Public Relations and 3 years of experience in that field.
-            <br /><br />
+        <br /><br /><br /><br />
+        <br /><br />
 
-            <b><u>Employmnet History</u></b>
-            <br /><br />
-            <b>Software Development</b>
-            <br /><br />
-            <b>Bravo Wellness, Cleveland, Ohio</b>
-            <br />
-            2017 - 2019
-            <br />
-            IT Applications Developer II - Back End Development
-            <br />
-            Worked on a multi-developer team in an agile development environment.  Developed, enhanced and maintained over 200 Windows Forms and console applications and libraries using the .NET framework in support of back end functionality and internal tools for a technology-driven company.  Constantly worked to improve efficiency and utility of data loading, internal use and reporting systems.  Developed a tool for internal staff to see real-time data using API interfaces to vendor systems.  Pioneered a solution to increase data load efficiency exponentially using SSIS packages.  This position included partial remote work.
-            <br />
-            Technologies used: C#, Visual Basic, SQL, Microsoft SQL Server, SQL Server Integration Services (SSIS)
+        <div style="clear: both;"></div>
 
-            <br /><br />
-
-            <b>KEPRO, Cleveland, Ohio</b>
-            <br />
-            2014 - 2017
-            <br />
-            Web Developer
-            <br />
-            Full stack design and development of internal web applications using ASP.NET Web Forms, Visual Basic, C#, HTML, CSS and JavaScript.  Developed an internal web application to track the company's healthcare peer reviewer network.  Integrated the peer review application with third party services through an API.  Developed and maintained public facing web sites.  Designed relational databases for the back end of web applications using Microsoft SQL Server. Successfully worked 100% remote for the last year and a half of this position.
-            <br />
-            Technologies used: ASP.NET Web Forms, Visual Basic, C#, HTML, CSS, JavaScript, SQL, Microsoft SQL Server
-
-            <br /><br />
-
-            <b>KEPRO, Cleveland, Ohio</b>
-            <br />
-            2013 - 2014
-            <br />
-            Webmaster (Contract)
-            <br />
-            Maintained a public facing ASP.NET Visual Basic web site with Microsoft SQL Server as the database back end.  Planned and developed a full stack internal web application designed to track and schedule the company's healthcare peer reviewer network.
-            <br />
-            Technologies used: ASP.NET Web Forms, Visual Basic, C#, HTML, CSS, JavaScript, SQL, Microsoft SQL Server
-
-            <br /><br />
-
-            <b>The Cleveland Clinic Foundation, Cleveland, Ohio</b>
-            <br />
-            2013
-            <br />
-            Applications Developer (Contract)
-            <br />
-            Developed custom reports using SQL, Crystal Reports and Microsoft Excel to support healthcare provider credential management.  Extensive use of SQL for data reporting and maintenance. Developed and enhanced custom software used by credentialing staff to track healthcare provider credentials and education.
-            <br />
-            Technologies used: .NET Windows Forms, Visual Basic, SQL, Microsoft SQL Server, Crystal Reports
-
-            <br /><br />
-
-            <b>Amtrust Financial Group, Cleveland, Ohio</b>
-            <br />
-            2013
-            <br />
-            Software Developer (Contract)
-            <br />
-            Planned, developed, implemented, and tested custom code using Visual Basic for the import of insurance client data into SQL Server databases.  Responsible for maintaining accuracy of client sales, claims and financial data.  Extensive use of SQL for data verification, maintenance and reporting.
-            <br />
-            Technologies used: .NET Console Applications, Visual Basic, SQL, Microsoft SQL Server
-
-            <br /><br />
-
-            <b>Main Sequence Technologies, Inc., Willoughby, Ohio</b>
-            <br />
-            2008 - 2009
-            <br />
-            Software Developer
-            <br />
-            Planned, developed, implemented, and tested software solutions for a web based applicant tracking product using Visual Basic 6.0.  Assisted with database maintenance and conversions.  Wrote special use software to fix client database problems.
-            <br />
-            Technologies used: Visual Basic 6.0, HTML, CSS, SQL, Microsoft SQL Server
-
-            <br /><br />
-
-            <b>Public Relations</b>
-            <br /><br />
-
-            <b>Bozell Public Relations, Cleveland, Ohio</b>
-            <br />
-            1996 - 1998
-            <br />
-            Assistant Account Executive/CyberPR Specialist
-            <br />
-            Wrote press releases, newsletter articles and marketing materials.  Wrote a presentation for Microsoft Founder and CEO Bill Gates that was used for his presentation during a healthcare conference in which he spoke about our client for 8 minutes.  Counseled clients on using Internet technologies in their overall marketing strategies.  Monitored online presence and conducted competitive analysis.  Served as liaison between technical clients and staff.
-
-            <br /><br />
-
-            <b>PolySort, Inc., Akron, Ohio</b>
-            <br />
-            1998 - 1999
-            <br />
-            Marketing Manager
-            <br />
-            Supervised marketing efforts.  Developed marketing materials and procedures that greatly enhanced efficiency.  Assisted in web site development.  Maximized search engine results for the company and for clients.  Designed and published newsletters.  Wrote press releases and newsletter articles.  Wrote a new business proposal that resulted in the largest account in company history.  This proposal then became the template for future proposals.
-
-            <br /><br />
-
-            <b>Other Work</b>
-            <br /><br />
-
-            <b>Wal-mart, Parma, Ohio</b>
-            <br />
-            2010 - 2013
-            <br />
-            Photo Center Technician
-            <br />
-            Assist customers with the processing and printing of digital photographs.  Assist with camera and accessories sales.  Assist with customer service in the electronics department.  Maintain photo processing and printing equipment.  Maintain merchandise presentation, organization and inventory.  Troubleshoot technical issues to determine the best products and solutions for customer needs.
-
-            <br /><br />
-            <b>Samples of My Work</b>
-            <br /><br />
-            While most of my professional work has been proprietary and confidential, at KEPRO I developed and maintained a public facing web site:
-            <br /><br />
-            <a href="http://www.keproqio.com" target="_blank">http://www.keproqio.com</a>
-            <br />
-             I worked with the marketing department, including a graphic designer, to design the site and I performed all development and implementation.  The site was developed as an ASP.NET web site with Visual Basic as the code-behind language and Microsoft SQL Server as the backend database.  This site was developed some time ago.  However, most of my original programming remains intact.
-
-            <br /><br />
-
-            <b><u>Education</u></b>
-            <br /><br />
-            Bachelor of Science in Computer Science
-            <br />
-            Kent State University, Kent, Ohio
-            <br />
-            December, 2007
-            <br /><br />
-            Bachelor of Science in Public Relations
-            <br />
-            Kent State University, Kent, Ohio
-            <br />
-            December, 1996
-            <br /><br />
+        <div id="divResumeFooter" class="Resume-footer">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <span style="color: #FFFFFF;">Copyright&nbsp;&copy;&nbsp;2019, Mark J. Amann. All rights reserved.</p>
         </div>
 
-        <div style="float: left; width: 25%; padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px; background-color: lightgray">
-            <span style="ForeColor: 000000; font-size: 20pt; font-weight: bold;">Competencies</span>
-            <br /><br />
-            <span style="ForeColor: 000000; font-size: 18pt; font-weight: bold;">Software Development</span>
-            <br />
-            C#, Visual Basic, SQL, ASP.NET, HTML, CSS, JavaScript, Microsoft SQL Server, MySQL, SSIS
-            <br /><br />
-            <span style="ForeColor: 000000; font-size: 18pt; font-weight: bold;">Public Relations</span>
-            <br />
-            Online marketing. Search engine
-            <br />
-            optimization, Strategic
-            <br />
-            communications, Press releases,
-            <br />
-            Marketing materials, Trade
-            <br />
-            shows, Newsletters, Strategic
-            <br />
-            consulting, Business and
-            <br />
-            technical writing
-            <br /><br />
-        </div>
       </div>
-
-      <br /><br /><br /><br />
-      <br /><br />
-
-      <div style="clear: both;"></div>
-
-      <div style="background-color: #000000; width: 100%; height: 40px; margin-top: 3px;">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <span style="color: #FFFFFF; font-size: 10pt;">Copyright&nbsp;&copy;&nbsp;2019, Mark J. Amann. All rights reserved.</p>
-      </div>
-
     </form>
-</body>
+  </body>
 </html>
