@@ -1,0 +1,113 @@
+html {
+  font-size: 16px;
+  font-family:  arial;
+}
+
+body {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.Mark {
+  color: #00FF00;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.Amann {
+  color: #FFFFFF;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.Tagline {
+  color: #00FF00;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.LinkSpan
+{
+  color: #00FF00;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.MainContainer {
+  width: 100%;
+}
+
+.Banner {
+  background-color: #000000;
+  width: 100%;
+  min-height: 80px;
+}
+
+.NameBlock {
+  float: left;
+  width: 40%;
+  text-align: center;
+}
+
+.LinkBlock {
+  float: right;
+  width: 60%;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.NavLinkDiv {
+  float: left;
+  margin: 0 20px;
+}
+
+.Content {
+  padding: 30px;
+}
+
+footer
+{
+  background-color: #000000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: 40px;
+  padding-left: 20px;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+
+  .Banner {
+    min-height: 80px;
+  }
+
+  .NameBlock {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .LinkBlock {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .NavLinkDiv {
+    float: none;
+    width: 100%;
+  }
+
+  .Content {
+    padding: 10px;
+  }
+
+  footer
+  {
+    position: absolute;
+    padding-left: 5px;
+    font-size: 1rem;
+  }
+}
